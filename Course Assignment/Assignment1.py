@@ -2,10 +2,10 @@
 # To use python to solve momentum and kinetic energy
 
 ## Required values from the user
-print('Welcome to my Momentum and Kinetic Solver \n')
+print('Welcome To Momentum and Kinetic Solver.......!!!!😊❤️ \n')
 
-mass = int(input('Enter your mass value: '))
-velocity = int(input('Enter you velcity value: '))
+mass = float(input('Enter your mass value: '))
+velocity = float(input('Enter you velcity value: '))
 
 def momentum(mass, velocity):
     # since we know that momentum formular is mass multiply by velocity
