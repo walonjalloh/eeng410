@@ -20,7 +20,7 @@ def truthTable(num_of_gates, num_of_input):
             result = all(input)
         else:
             result = any(input)
-        
+         
         format_Str = ' | '.join(map(str, input))
         print(f'{format_Str} | {int(result)}')    
 

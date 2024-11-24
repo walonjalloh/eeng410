@@ -35,6 +35,11 @@ print(mySquare)
 
 ## learnt how to use the map function in python
 myList = [1,2,3,4,5,6]
+
+def add_five(n):
+    return n + 5
 squared = list(map(lambda x: x**2, myList))
+added_five = list(map(add_five,myList))
 print(f'squared list = {squared}')
+print(added_five)
 
