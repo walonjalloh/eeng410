@@ -32,3 +32,9 @@ print(myFloat)
 print(myFloor)
 print(mySquare)
 
+
+## learnt how to use the map function in python
+myList = [1,2,3,4,5,6]
+squared = list(map(lambda x: x**2, myList))
+print(f'squared list = {squared}')
+

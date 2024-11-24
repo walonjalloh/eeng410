@@ -5,10 +5,10 @@
 print('Welcome To Momentum and Kinetic Solver.......!!!!😊❤️ \n')
 
 mass = float(input('Enter your mass value: '))
-velocity = float(input('Enter you velcity value: '))
+velocity = float(input('Enter you velocity value: '))
 
 def momentum(mass, velocity):
-    # since we know that momentum formular is mass multiply by velocity
+    # since we know that momentum formula is mass multiply by velocity
     # we store  that answer in the answer variable
 
     answer = mass * velocity
