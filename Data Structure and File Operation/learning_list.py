@@ -53,3 +53,25 @@ print(added_list)
 # printing the element in a list using for loop
 for item in mylist:
     print(item)
+
+
+# lsit comprehension
+square = [x ** 2 for x in range(11)]
+print(square)
+
+squared2= []
+for x in range(10):
+    x = x ** 2
+    squared2.append(x)
+
+print(squared2)
+
+#sorting a list using the sort() function
+
+mylist3 = [4,6,1,2,5,9,8]
+mylist3.sort()
+print(mylist3)
+
+# copying  list to another list
+new_list = mylist3.copy()
+print(new_list)
