@@ -1,4 +1,4 @@
-**Guides or things we cover in this class**
+**Guides or things we covered in this class**
 ---
 
 ## Intro to Python
@@ -10,7 +10,7 @@
 5. Modules and creating my own custom modules
 
 ---
-### Data Structures and File Operation
+## Data Structures and File Operation
 ---
 1. Lists 
 2. List Operations
