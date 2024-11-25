@@ -4,6 +4,13 @@
 ## Intro to Python
 ---
 1. variable
-2. array, list, dictionaries, tuples
-3. classes, functions
-4. if-else, loops[while, for]
+2. classes, functions
+3. if-else, loops[while, for]
+4. Functions
+5. Modules and creating my own custom modules
+
+---
+### Data Structures and File Operation
+---
+1. Lists 
+2. List Operations

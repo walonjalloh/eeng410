@@ -49,3 +49,7 @@ def add_ten(num):
 
 added_list = list(map(add_ten,mylist2))
 print(added_list)
+
+# printing the element in a list using for loop
+for item in mylist:
+    print(item)
