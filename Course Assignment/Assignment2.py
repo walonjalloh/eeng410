@@ -24,6 +24,9 @@ def truthTable(num_of_gates, num_of_input):
         format_Str = ' | '.join(map(str, input))
         print(f'{format_Str} | {int(result)}')    
 
+
+print('Welcome to my Truth Table generators \n')
+
 truthTable('AND',3)    
 
                 
