@@ -4,6 +4,8 @@
 
 def truthTable():
     expression = input('Enter an boolean expression: \n')
+    for i in expression:
+        pass
     expression = expression.replace("+", " or ").replace("*" , " and ")
     print(expression)
     print('\n')
@@ -19,12 +21,18 @@ def truthTable():
                 output = eval(result)
                 print(f'{A} | {B} | {C} |  {int(output)}')
 
+truthTable()
 
-checking = "A+B+C*D*E"
-mylist = []
-for i in checking:
-    if i != '+' and i != '*':
-        mylist.append(i)
+# checking = "A+B+C*D*E+B+C+A+B+D+C+E+E"
+# mylist = []
+# for i in checking:
+#     if i != '+' and i != '*':
+#         mylist.append(i)
 
-print(mylist) 
-print(len(mylist))       
+# print(mylist) 
+# mylist.sort()
+# print(mylist)
+# mylist = list(set(mylist))
+# mylist.sort()
+# print(mylist)
+# print(len(mylist))      
